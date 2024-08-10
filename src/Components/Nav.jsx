@@ -1,0 +1,47 @@
+import { Link } from "react-router-dom";
+
+const Nav = () => {
+    return (
+        <div className="w-full">
+            <div className="w-[90%] md:container mx-auto h-16 flex justify-between items-center">
+                <div>
+                    <h1 className="font-semibold">WeHandle</h1>
+                </div>
+                <div className="hidden md:flex gap-4 lg:gap-7 text-md font-light">
+                    <Link to={'/'}>
+                        <div>
+                            <p>Home</p>
+                        </div>
+                    </Link>
+                    <div>
+                        <Link to={'/services'}>
+                            <p>Our Services</p>
+                        </Link>
+                    </div>
+                    <div>
+                        <Link to={'/stories'}>
+                            <p>Our Stories</p>
+                        </Link>
+                    </div>
+                    <div>
+                        <Link to={'/testimonials'}>
+                            <p>Testimonials</p>
+                        </Link>
+                    </div>
+                    <div>
+                        <Link to={'/pricing'}>
+                            <p>Pricing Plan</p>
+                        </Link>
+                    </div>
+                </div>
+                <div>
+                    <div className="border border-gray-300 rounded-lg p-2">
+                        Get in touch
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Nav;
