@@ -1,11 +1,36 @@
-
+import { MdGroups2 } from "react-icons/md";
+import { IoMdStar } from "react-icons/io";
 
 const Clients = () => {
     return (
         <div className="w-full">
             <div className="w-[90%] container mx-auto flex flex-col">
-                <div>
-
+                <div className="flex flex-col md:flex-row p-10 items-center gap-5">
+                    <div className="w-full h-1/2 md:w-1/2 md:h-full flex items-center justify-center">
+                        <h1 className="text-4xl mx-10 text-center md:text-start md:mx-0 md:text-5xl font-light">What Our Satisfied Clients Say</h1>
+                    </div>
+                    <div className="w-full h-1/2 md:w-1/2 md:h-full flex flex-row 
+                                    items-center justify-center gap-8 py-5"
+                    >
+                        <div className="flex flex-row items-center gap-4">
+                            <MdGroups2 className="h-8 w-8" />
+                            <div className="flex flex-col">
+                                <h4 className="text-lg font-light">
+                                    64, 739
+                                </h4>
+                                <p>Happy Customers</p>
+                            </div>
+                        </div>
+                        <div className="flex flex-row items-center gap-4">
+                            <IoMdStar className="h-8 w-8" />
+                            <div className="flex flex-col">
+                                <h4 className="text-lg font-light">
+                                    4,8/5
+                                </h4>
+                                <p>Average Review</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="bg-slate-300 rounded-xl h-[50vh] md:h-[30vh] p-5">
                     <div className="flex h-full flex-col md:flex-row">
@@ -22,9 +47,9 @@ const Clients = () => {
                         </div>
                         <div className="h-full w-full md:w-3/5 flex justify-center items-center text-center md:text-left">
                             <p className="text-lg md:text-2xl md:mx-10">
-                                "I was hesitant to delegate tasks at first, but their virtual assistants proved
+                                &quot;I was hesitant to delegate tasks at first, but their virtual assistants proved
                                 to be competent and reliable. The attention to detail and proactive approach they bring
-                                to every task is impressive."
+                                to every task is impressive.&quot;
                             </p>
                         </div>
                         <div className="md:w-1/5 h-full flex items-center md:items-end justify-center md:justify-start gap-2 flex-col md:flex-col-reverse px-3">
