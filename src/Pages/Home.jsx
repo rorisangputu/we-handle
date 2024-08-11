@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <>
             <Hero />
-            <div className="bg-[#FFFFFF]">
+            <div className="bg-[#FFFFFF] py-4">
                 <Details />
                 <Info />
                 <Services />
