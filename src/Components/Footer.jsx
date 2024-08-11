@@ -1,5 +1,7 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 import { HiOutlineOfficeBuilding } from "react-icons/hi";
+import { IoMailOutline } from "react-icons/io5";
+import { BsTelephone } from "react-icons/bs";
 
 const Footer = () => {
     return (
@@ -38,17 +40,17 @@ const Footer = () => {
                         <p className="text-white font-light cursor-pointer">Press</p>
                         <p className="text-white font-light cursor-pointer">Sitemap</p>
                     </div>
-                    <div className=" flex flex-col justify-end">
+                    <div className="flex flex-col justify-end">
                         <div className="flex gap-3 mb-3">
                             <HiOutlineOfficeBuilding className="text-white h-5 w-5" />
                             <p className="text-white font-light">Johannesburg, South Africa</p>
                         </div>
                         <div className="flex gap-3 mb-3">
-                            <HiOutlineOfficeBuilding className="text-white h-5 w-5" />
+                            <BsTelephone className="text-white h-5 w-5" />
                             <p className="text-white font-light">+27 11 023 0310</p>
                         </div>
                         <div className="flex gap-3">
-                            <HiOutlineOfficeBuilding className="text-white h-5 w-5" />
+                            <IoMailOutline className="text-white h-5 w-5" />
                             <p className="text-white font-light">support@wehandle.com</p>
                         </div>
                     </div>
