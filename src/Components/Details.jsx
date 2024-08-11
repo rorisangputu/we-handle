@@ -3,7 +3,7 @@
 const Details = () => {
     return (
         <div className='w-full flex items-center'>
-            <div className="w-[90%] md:container mx-auto flex flex-col md:flex-row justify-between py-10 gap-5">
+            <div className="w-[90%] mx-auto flex flex-col md:flex-row justify-between py-10 gap-5">
                 <div className=" gap-5 flex flex-col md:justify-between h-1/2 md:h-full md:w-1/2">
                     <div className=" text-center md:text-start">
                         <h1 className="text-4xl mx-10 md:mx-0 md:mr-10 lg:mr-28">Reliable, Resourceful, and Ready to Assist</h1>

@@ -5,6 +5,7 @@ import Services from "../Components/Services"
 import PricingPlan from "../Components/PricingPlan"
 import Clients from "../Components/Clients"
 import Consult from "../Components/Consult"
+import Footer from "../Components/Footer"
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
                 <Clients />
             </div>
             <Consult />
+            <Footer />
         </>
     )
 }

@@ -3,7 +3,7 @@
 const Info = () => {
     return (
         <div className='w-full'>
-            <div className='w-[90%] md:container mx-auto flex flex-col justify-between py-20 gap-10'>
+            <div className='w-[90%] mx-auto flex flex-col justify-between py-20 gap-10'>
                 <div className="flex flex-col md:flex-row gap-5">
                     <div className="flex flex-col gap-3 text-center  mx-5 md:text-start md:mx-0 h-1/2 md:w-1/2">
                         <h1 className="text-4xl lg:mr-28">How We Can Make Your Business Grow</h1>
@@ -14,7 +14,7 @@ const Info = () => {
                     </div>
                     <div className="h-1/2 md:w-1/2">
                         <div className="bg-slate-200 rounded-xl p-3 md:ml-20 mx-auto">
-                            <p>"They have a knack for understanding my preferences and delivering exceptional results. I can't manage my tasks without them."</p>
+                            <p>&quot;They have a knack for understanding my preferences and delivering exceptional results. I can&apos;t manage my tasks without them.&quot;</p>
                             <div className="flex items-center mt-3 gap-3">
                                 <img
                                     src="https://plus.unsplash.com/premium_photo-1689539137236-b68e436248de?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

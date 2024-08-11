@@ -8,7 +8,7 @@ const Services = () => {
     return (
         <div className="w-full py-5">
             <div className="w-[97%] bg-[#EDF1F3] mx-auto rounded-xl py-3">
-                <div className="w-[90%] lg:container mx-auto py-5 md:py-10">
+                <div className="w-[90%] mx-auto py-5 md:py-10">
                     <div className="flex flex-col items-center justify-center text-center">
                         <h1 className="text-4xl font-light">Uncover Our Virtual Assistant Services</h1>
                         <p className="mt-4 text-base">Supercharge your productivity with our virtual assistant services, providing the

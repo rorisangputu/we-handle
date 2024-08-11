@@ -4,7 +4,7 @@ import { FaCheckCircle } from "react-icons/fa";
 const PricingPlan = () => {
     return (
         <div className="w-full py-10">
-            <div className="w-[90%] md:container mx-auto">
+            <div className="w-[90%] mx-auto">
                 <div className="flex flex-col items-center justify-center text-center my-7">
                     <h1 className="text-4xl font-light">Uncover Our Virtual Assistant Services</h1>
                     <p className="mt-4 text-base">Supercharge your productivity with our virtual assistant services, providing the

@@ -4,7 +4,7 @@ import { IoMdStar } from "react-icons/io";
 const Clients = () => {
     return (
         <div className="w-full">
-            <div className="w-[90%] container mx-auto flex flex-col">
+            <div className="w-[90%] mx-auto flex flex-col">
                 <div className="flex flex-col md:flex-row p-10 items-center gap-5">
                     <div className="w-full h-1/2 md:w-1/2 md:h-full flex items-center justify-center">
                         <h1 className="text-4xl mx-10 text-center md:text-start md:mx-0 md:text-5xl font-light">What Our Satisfied Clients Say</h1>

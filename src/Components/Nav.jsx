@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 const Nav = () => {
     return (
         <div className="w-full">
-            <div className="w-[90%] md:container mx-auto h-16 flex justify-between items-center">
+            <div className="w-[90%] mx-auto h-16 flex justify-between items-center">
                 <div>
-                    <h1 className="font-semibold">WeHandle</h1>
+                    <h1 className="font-semibold text-2xl">WeHandle</h1>
                 </div>
                 <div className="hidden md:flex gap-4 lg:gap-7 text-md font-light">
                     <Link to={'/'}>
