@@ -32,7 +32,7 @@ const Clients = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-slate-300 rounded-xl h-[50vh] md:h-[30vh] p-5">
+                <div className="bg-slate-300 rounded-xl h-[55vh] md:h-[30vh] p-5">
                     <div className="flex h-full flex-col md:flex-row">
                         <div className="h-full md:w-1/5 gap-2 p-2 flex flex-row md:flex-col items-center md:items-start">
                             <img

@@ -30,14 +30,14 @@ const Info = () => {
                     </div>
                 </div>
                 <div className="flex flex-col md:grid md:grid-cols-3 gap-4">
-                    <div className="bg-slate-200 p-3 rounded-xl h-[15vh] md:h-[20vh] flex flex-col justify-between">
+                    <div className="bg-slate-200 p-3 rounded-xl h-[20vh] md:h-[20vh] flex flex-col justify-between">
                         <p className="font-semibold">Step 1</p>
                         <div className="flex flex-col gap-2">
                             <h2 className="text-xl font-light">Defining Your Dream Assistant</h2>
                             <p className="text-sm">Tell us about your dream assistant -- what skills, traits, and abilities do you envision?</p>
                         </div>
                     </div>
-                    <div className="bg-slate-200 p-3 rounded-xl h-[15vh] md:h-[20vh] flex flex-col justify-between">
+                    <div className="bg-slate-200 p-3 rounded-xl h-[20vh] md:h-[20vh] flex flex-col justify-between">
                         <p className="font-semibold">Step 2</p>
                         <div className="flex flex-col gap-2">
                             <h2 className="text-xl font-light">Meet and approve your assistant</h2>
@@ -46,7 +46,7 @@ const Info = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="bg-slate-200 p-3 rounded-xl h-[15vh] md:h-[20vh] flex flex-col justify-between">
+                    <div className="bg-slate-200 p-3 rounded-xl h-[20vh] md:h-[20vh] flex flex-col justify-between">
                         <p className="font-semibold">Step 3</p>
                         <div className="flex flex-col gap-2">
                             <h2 className="text-xl font-light">Launch and track with precision</h2>

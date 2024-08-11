@@ -3,9 +3,9 @@
 const Hero = () => {
     return (
         <div className="w-full bg-[#FDF6E6] m-0">
-            <div className="w-[90%] mx-auto h-[60vh] flex items-center">
-                <div className="flex flex-col items-center h-full justify-center text-center py-7 gap-7 md:gap-3 md:text-start md:items-start md:w-1/2">
-                    <h1 className="text-5xl font-light">Virtual Assistant Services at Your Fingertips!</h1>
+            <div className="w-[90%] mx-auto h-[90%] md:h-[60vh] flex items-center">
+                <div className="flex flex-col items-center h-full justify-center text-center py-7 gap-5 md:gap-3 md:text-start md:items-start md:w-1/2">
+                    <h1 className="text-4xl md:text-5xl font-light">Virtual Assistant Services at Your Fingertips!</h1>
                     <p className="py-5 text-xl md:text-base">Our virtual assistants are highly skilled professionals who can handle all your
                         administrative, technical, and creative needs.
                     </p>

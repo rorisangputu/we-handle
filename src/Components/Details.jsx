@@ -6,7 +6,7 @@ const Details = () => {
             <div className="w-[90%] mx-auto flex flex-col md:flex-row justify-between py-10 gap-5">
                 <div className=" gap-5 flex flex-col md:justify-between h-1/2 md:h-full md:w-1/2">
                     <div className=" text-center md:text-start">
-                        <h1 className="text-4xl mx-10 md:mx-0 md:mr-10 lg:mr-28">Reliable, Resourceful, and Ready to Assist</h1>
+                        <h1 className="text-3xl md:text-4xl mx-10 md:mx-0 md:mr-10 lg:mr-28">Reliable, Resourceful, and Ready to Assist</h1>
                         <p className="py-5">
                             Our team of virtual assistants is committed to being the reliable support
                             you can count on, armed with the resources to tackle any task
