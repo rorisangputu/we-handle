@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
                 {/* Footer Links */}
                 <div className="my-5 flex flex-col md:flex-row justify-between items-center md:items-start">
-                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-5 md:mb-0">
+                    <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-5 md:mb-0">
                         <p className="text-white font-light cursor-pointer">Home</p>
                         <p className="text-white font-light cursor-pointer">About</p>
                         <p className="text-white font-light cursor-pointer">Services</p>
@@ -40,18 +40,21 @@ const Footer = () => {
                     </div>
                     <div className=" flex flex-col justify-end">
                         <div className="flex gap-3 mb-3">
-                            <HiOutlineOfficeBuilding className="text-white" />
+                            <HiOutlineOfficeBuilding className="text-white h-5 w-5" />
                             <p className="text-white font-light">Johannesburg, South Africa</p>
                         </div>
                         <div className="flex gap-3 mb-3">
-                            <HiOutlineOfficeBuilding className="text-white" />
+                            <HiOutlineOfficeBuilding className="text-white h-5 w-5" />
                             <p className="text-white font-light">+27 11 023 0310</p>
                         </div>
                         <div className="flex gap-3">
-                            <HiOutlineOfficeBuilding className="text-white" />
+                            <HiOutlineOfficeBuilding className="text-white h-5 w-5" />
                             <p className="text-white font-light">support@wehandle.com</p>
                         </div>
                     </div>
+                </div>
+                <div className="mt-5 flex justify-center items-center">
+                    <p className="text-white">All Rights Reserved. WeHandle. 2024</p>
                 </div>
             </div>
         </div>
