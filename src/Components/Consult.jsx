@@ -2,7 +2,7 @@
 
 const Consult = () => {
     return (
-        <div className="w-full py-12 md:py-5">
+        <div className="w-full bg-[#FDF6E6] py-12 md:py-5">
             <div className="w-[90%] mx-auto h-[20vh] flex items-center justify-center">
                 <div className="flex flex-col md:flex-row items-center md:gap-20 gap-5  ">
                     <div className="flex flex-col justify-center items-center text-center md:items-start">

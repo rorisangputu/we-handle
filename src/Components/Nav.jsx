@@ -14,13 +14,13 @@ const Nav = () => {
                         </div>
                     </Link>
                     <div>
-                        <Link to={'/services'}>
-                            <p>Our Services</p>
+                        <Link to={'/about'}>
+                            <p>About</p>
                         </Link>
                     </div>
                     <div>
-                        <Link to={'/stories'}>
-                            <p>Our Stories</p>
+                        <Link to={'/services'}>
+                            <p>Our Services</p>
                         </Link>
                     </div>
                     <div>
@@ -35,9 +35,11 @@ const Nav = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="border border-gray-300 rounded-lg p-2">
-                        Get in touch
-                    </div>
+                    <Link to={'/contact'}>
+                        <div className="border border-gray-300 rounded-lg p-2">
+                            Get in touch
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>
