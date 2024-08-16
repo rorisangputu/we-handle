@@ -14,23 +14,13 @@ const Nav = () => {
                         </div>
                     </Link>
                     <div>
-                        <Link to={'/about'}>
+                        <Link to={'/'}>
                             <p>About</p>
                         </Link>
                     </div>
                     <div>
-                        <Link to={'/services'}>
+                        <Link to={'/'}>
                             <p>Our Services</p>
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to={'/testimonials'}>
-                            <p>Testimonials</p>
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to={'/pricing'}>
-                            <p>Pricing Plan</p>
                         </Link>
                     </div>
                 </div>
